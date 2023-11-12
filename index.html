@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Meta Tag -->
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Website about fortnite." />
+      <meta name="keywords" content="fortnite, og, informatyka-strona" />
+      <meta name="author" content="Igor 'aki'" />
+
+      <!-- Links -->
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="nav.css" />
+      <link rel="icon" href="https://www.freepnglogos.com/uploads/fortnite-png/fortnite-characters-png-download-clip-art-clip-art-24.jpg" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"
+      ></script>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+         crossorigin="anonymous"
+      />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <!-- Title -->
+      <title>Fortnite</title>
+   </head>
+
+   <body>
+      <!-- Navbar -->
+      <nav>
+         <label class="logo">Fortnite</label>
+         <ul>
+            <li class="active">
+               <a href="#">
+                  <i class="fas fa-home"></i>
+                  <span class="nav__text">Główna</span>
+               </a>
+            </li>
+
+            <li>
+               <a href="#about">
+                  <i class="fas fa-address-card"></i>
+                  <span class="nav__text">O grze</span>
+               </a>
+            </li>
+
+            <li>
+               <a href="#video">
+                  <i class="fas fa-user-secret"></i>
+                  <span class="nav__text">Filmiki</span>
+               </a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Header -->
+      <header id="header" class="header" data-aos="fade-up">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="text-container">
+                     <h1 class="text-c">Fortnite</h1>
+                     <hr width="200px" class="hr" />
+                     <p class="p">Komputerowa gra wieloosobowa z trybem rozgrywki battle royale<br />opracowana i wydana przez Epic Games.</p>
+                     <a class="cbtn page-scroll" data-aos="flip-up" href="https://store.epicgames.com/pl/p/fortnite">Pobierz</a>
+                     <a class="cbtn cbtn-outline" data-aos="flip-up" href="#about">O grze</a>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="image-container">
+                     <img class="img-fluid" src="assets/fortnite_logo.png" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- Modes -->
+      <div class="mode">
+         <h1 class="text mode-tx">Tryby</h1>
+         <hr width="200px" class="hr hr-center" />
+         <div class="container">
+            <div id="carouselContent" class="carousel slide" data-aos="zoom-in" data-ride="carousel">
+               <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active text-center p-4">
+                     <p>Battle Royale</p>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                     <p>Bez budowania</p>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                     <p>Battle Royale - rankingowy</p>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                     <p>Bez budowania - rankingowy</p>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                     <p>Kreatywny</p>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+         <!-- About -->
+         <h1 class="text about" id="about">O grze</h1>
+         <hr width="200px" class="hr hr-center" />
+         <p>Kilka słów o tym, co znajdziemy w grze.</p>
+
+         <div class="row crow" data-aos="fade-up">
+            <div class="col-sm">
+               <div class="card h-100 ccard">
+                  <div class="card-body">
+                     <img src="./assets/fortnite_1.png" width="120" />
+                     <h1 class="text-about-title">V-Dolce</h1>
+                     <p class="card-text">
+                        V-Dolce, znane również jako V-bucks, to wirtualna waluta używana w grze Fortnite Umożliwiają one zakup różnych przedmiotów kosmetycznych, takich jak ubrania dla postaci, a
+                        także Karnetu Bojowego
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm">
+               <div class="card h-100 ccard">
+                  <div class="card-body">
+                     <img src="./assets/fortnite_2.png" width="120" />
+                     <h1 class="text-about-title">Karnet Bojowy</h1>
+                     <p class="card-text">
+                        Karnet bojowy w Fortnite to rodzaj “przepustki”, która daje możliwość wykonywania specjalnych wyzwań i zdobywania różnych przedmiotów kosmetycznych. Po zakupie karnetu
+                        bojowego, możesz go awansować na kolejne poziomy i zdobywać różne nagrody
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm">
+               <div class="card h-100 ccard">
+                  <div class="card-body">
+                     <img src="./assets/fortnite_3.png" width="120" />
+                     <h1 class="text-about-title">Rozgrywka</h1>
+                     <p class="card-text">
+                        Rozgrywka w Fortnite jest ekscytująca i wyjątkowa. Jak w każdej grze Battle Royale, musisz zmierzyć się z 99 innymi graczami i wygrać jako ostatni. Musisz także unikać
+                        zbliżającej się śmiercionośnej burzy. Kluczowym elementem Fortnite jest mechanika budowania.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Video -->
+         <h1 class="text video" id="video">Filmiki</h1>
+         <hr width="200px" class="hr hr-center" />
+         <p>Kilka filmików, z rozgrywki w Fortnite.</p>
+
+         <div class="row crow" data-aos="fade-up">
+            <div class="col-sm">
+               <div class="card h-100 ccard-v">
+                  <div class="card-body">
+                     <iframe class="video-frame" src="https://www.youtube.com/watch?v=tmWAMSYn3-g&t=239s"></iframe>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm">
+               <div class="card h-100 ccard-v">
+                  <div class="card-body">
+                     <iframe class="video-frame" src="https://www.youtube.com/watch?v=KhYfZ2sO4ws"></iframe>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm">
+               <div class="card h-100 ccard-v">
+                  <div class="card-body">
+                     <iframe class="video-frame" src="https://www.youtube.com/watch?v=SXsNji4TYJk"></iframe>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer-dark" id="footer" data-aos="fade-up">
+         <footer>
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-6 col-md-3 item">
+                     <h3>Źródła</h3>
+                     <ul>
+                        <li><a href="https://google.com/">Zdjęcia</a></li>
+                        <li><a href="https://www.bing.com/search?form=NTPCHB&q=Bing+AI&showconv=1">Informacje</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                     <h3>Linki</h3>
+                     <ul>
+                        <li><a href="https://store.epicgames.com/pl/p/fortnite">Pobierz</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6 item">
+                     <h3>Fortnite</h3>
+                     <p class="ftext">
+                        Fortnite to popularna gra komputerowa stworzona przez Epic Games. Gra jest dostępna w trzech różnych trybach, które mają tę samą ogólną mechanikę gry i wykorzystują ten sam
+                        silnik gry.
+                     </p>
+                  </div>
+               </div>
+               <p class="copyright">aki © 2023</p>
+            </div>
+         </footer>
+      </div>
+
+      <script>
+         AOS.init()
+      </script>
+   </body>
+</html>
